@@ -1,0 +1,347 @@
+@media (max-width: 1300px) {
+    
+}
+@media (max-width: 991px) {
+    .redes ul{
+        float: none;
+    }
+    .side-area-l .area-text{
+        padding-bottom: 70px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .pagsegura-area{
+        width: 100%;
+        padding: 20px;
+        left: inherit;
+        position: inherit;
+        margin: 20px 0;
+    }
+    .form-busca {
+        margin: 0 auto 30px !important;
+    }
+    .form-busca .input-group {
+        max-width: 400px;
+        margin: auto;
+    }
+    .footer-list {
+        display: block !important;
+        overflow: hidden;
+    }
+    .footer-list li {
+        float: none !important;
+        display: inline-block;
+    }
+    .produtos_lista {
+        margin-bottom: 20px !important;
+    }
+    .footer-title {
+        margin: 20px 0 15px;
+    }
+    .marcas .item {
+        margin-bottom: 10px;
+    }
+    .produtos_lista .item {
+        margin-bottom: 30px;
+    }
+    .produtos_lista .item .produto-fig {
+        margin-bottom: 10px !important;
+    }
+    #logo {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    .header-buttons {
+        text-align: center;
+    }
+    .header-buttons li {
+        float: none !important;
+        display: inline-block;
+    }
+    .fixmd {
+        display: none
+    }
+}
+
+@media (min-width: 992px) {
+    .quem-somos-area .box {
+        min-height: 630px;
+        display: block;
+    }
+    .fixsm {
+        display: none
+    }
+}
+
+@media (max-width: 1199px) {
+    .cont-area{
+        padding-right: 70px;
+    }
+    .menu ul li a:hover, .menu ul li a:focus{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .header-icons{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .menu ul li a{
+        font-size: 12px;
+        padding: 10px;
+        width: 60%;
+    }
+    .side-area-r{
+        width: 143px;
+    }
+    .img-bg img {
+        width: auto !important;
+        height: 100%;
+        max-width: inherit;
+        margin: auto;
+        display: block;
+    }
+    .img-doacao{
+        position: inherit;
+        right: inherit;
+        max-width: 100% !important;
+    }
+    #logo a img {
+        max-width: 100%;
+    }
+    .redes a {
+        /* padding: 0 5px !important; */
+    }
+    .menu {
+        margin-top: 28px
+    }
+    .menu ul {
+        padding: 0;
+    }
+    .apresentacao .triangles .list li {
+        margin: 0 55px
+    }
+    .apresentacao .triangles .list li .line {
+        width: 230px;
+        height: 230px;
+        margin-top: -115px;
+        margin-left: -115px
+    }
+    .apresentacao .triangles .list li .box {
+        width: 180px;
+        height: 180px
+    }
+    .apresentacao .triangles .list li .box img {
+        width: 300px;
+        margin: -60px 0 0 -60px
+    }
+    .apresentacao .triangles .list li p {
+        bottom: -110px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px){
+    .cont-area{
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .cont-area{
+        padding-right: 0;
+    }
+    .logo-area{
+        padding-top: 60px;
+    }
+    .header {
+        padding-bottom: 20px;
+    }
+    .news-area {
+        text-align: center;
+    }
+    .news-area form {
+        margin-bottom: 10px;
+    }
+    .quem-somos-area .box {
+        padding: 20px;
+    }
+    .redes {
+        width: 100%;
+        text-align: center;
+        top: 0;
+        z-index: 99;
+        position: fixed;
+    }
+    .redes>li {
+        float: none;
+        display: inline-block;
+    }
+    .redes-title {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .menu {
+        display: none !important;
+    }
+    .side-area-r{
+        position: inherit;
+        width: auto;
+        display: none;
+    }
+    .header .container {
+        width: 100%
+    }
+    .apresentacao .triangles .list li {
+        width: 100%;
+        margin: 120px 0 90px 0;
+    }
+    .apresentacao .triangles .list .box {
+        margin: 0 auto
+    }
+    .apresentacao .triangles {
+        margin-bottom: -50px
+    }
+    .article_left {
+        margin-bottom: 30px
+    }
+    .footer p {
+        text-align: center
+    }
+    .footer .tel {
+        padding-left: 0
+    }
+    .footer a {
+        float: none;
+        margin: 15px auto 0
+    }
+    .produto .box {
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px
+    }
+    .sobre h3 {
+        margin-top: 0
+    }
+}
+
+@media (max-width: 767px) {
+    .side-area-l{
+        position: inherit;
+        height: inherit;
+        width: 100%;
+        left: inherit;
+    }
+    .logo-area:after{
+        display: none;
+    }
+    .logo-area{
+        padding: 15px;
+        margin: 45px 0 0 !important;
+    }
+    .side-area-l .area-text{
+        margin: 0;
+    }
+    .side-area-r{
+        width: 230px;
+        display: block;
+        height: auto;
+    }
+    .side-area-l .area-text:before{
+        display: none;
+    }
+    .menu ul li a{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .menu ul li a:hover, .menu ul li a:focus{
+        padding: 15px 10px;
+    }
+    .side-area-l .area-text .cont{
+        max-width: 800px;
+        margin: auto;
+        display: block;
+        width: 60%;
+    }
+    
+    
+    .side-area-l .area-text .cont{
+        width: 100%;    
+    }
+    
+    .side-area-l .area-text{
+        padding-bottom: 90px;
+    }
+    .header-details {
+        text-align: center;
+    }
+    .header-details li a {
+        margin-bottom: 20px;
+    }
+    .marcas {
+        margin: 30px 0 !important;
+    }
+    .footer {
+        text-align: center;
+        padding: 10px 0;
+        line-height: normal;
+    }
+    #logo {
+        /* max-width: 200px */
+    }
+    #logo img {
+        max-width: 100%;
+    }
+    .header .hamburger {
+        /* top: -67px; */
+    }
+}
+
+@media (max-width: 580px) {
+    .apresentacao .article_right p {
+        position: relative;
+        width: 100%;
+        padding: 0;
+        top: 0;
+        right: 0
+    }
+}
+
+@media (max-width: 480px) {
+    #logo {
+        max-width: 100px;
+        margin: auto;
+    }
+    .header .hamburger {
+        /* top: 6px; */
+        right: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .header-buttons {
+        /* float: right; */
+    }
+    .responsive_menu,
+    .hamburger {
+        display: none !important
+    }
+}
+
+@media (min-width: 1200px) {
+    .quem-somos-area .box-video .video{
+        display: block;
+        position: relative;
+        left: -70px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+    .header-details li {
+        margin-right: 110px;
+    }
+    .container {
+        width: 1170px
+    }
+}

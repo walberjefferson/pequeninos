@@ -1,0 +1,8 @@
+node_modules
+bower_components
+.idea
+PSDs
+error_log
+logs
+Gruntfile.js
+bower.json

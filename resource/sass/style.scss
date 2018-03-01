@@ -1,0 +1,38 @@
+@import 'variaveis';
+@import 'mixins';
+@import 'snippets';
+//@import 'fonts';
+
+
+*{
+  	margin: 0;
+  	padding: 0;
+}
+
+::-moz-selection { 
+    background: $color3; 
+    color: $color1;
+}
+::selection { 
+    background: $color3; 
+    color: $color1;
+}
+
+html {
+    position: relative;
+    font-family: sans-serif;
+    overflow-x: hidden!important; 
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+}
+
+body {
+    //font-family: $font_padrao;
+    font-size: 14px;
+    color: $color4;
+    line-height: 1.4em;
+    margin: 0;
+    background: $color2 !important;
+    position: relative;
+    overflow-x: hidden!important;
+}

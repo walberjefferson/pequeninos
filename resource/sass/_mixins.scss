@@ -1,0 +1,102 @@
+@mixin full {
+    width: 100%;
+    height: 100%;
+}
+
+@mixin transitions($transitions){
+    -webkit-transition: all $transitions ease-in-out;
+       -moz-transition: all $transitions ease-in-out;
+        -ms-transition: all $transitions ease-in-out;
+         -o-transition: all $transitions ease-in-out;
+            transition: all $transitions ease-in-out;
+}
+
+@mixin transitions_cubic($transitions_cubic){
+    -webkit-transition: all $transitions_cubic cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+       -moz-transition: all $transitions_cubic cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+         -o-transition: all $transitions_cubic cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+            transition: all $transitions_cubic cubic-bezier(0.860, 0.000, 0.070, 1.000);
+}
+
+@mixin radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+            border-radius: $radius;
+}
+
+@mixin box_shadow($top, $left, $blur, $color, $inset: false) {
+    @if $inset {
+        -webkit-box-shadow:inset $top $left $blur $color;
+           -moz-box-shadow:inset $top $left $blur $color;
+               box-shadow:inset $top $left $blur $color;
+    } @else {
+        -webkit-box-shadow: $top $left $blur $color;
+           -moz-box-shadow: $top $left $blur $color;
+                box-shadow: $top $left $blur $color;
+    }
+}
+
+@mixin scale($scale){
+    -webkit-transform:scale($scale); 
+       -moz-transform:scale($scale); 
+         -o-transform:scale($scale); 
+            transform:scale($scale);
+}
+
+@mixin rotate($rotate){
+    -webkit-transform: rotate($rotate);
+       -moz-transform: rotate($rotate);
+        -ms-transform: rotate($rotate);
+         -o-transform: rotate($rotate);
+            transform: rotate($rotate);
+}
+
+@mixin rotate_scale($scale, $rotate){
+    -webkit-transform: scale($scale) rotate($rotate);
+       -moz-transform: scale($scale) rotate($rotate);
+        -ms-transform: scale($scale) rotate($rotate);
+         -o-transform: scale($scale) rotate($rotate);
+            transform: scale($scale) rotate($rotate);
+}
+
+@mixin rotate($this_rotate){
+    -webkit-transform: rotate($this_rotate);
+       -moz-transform: rotate($this_rotate);
+        -ms-transform: rotate($this_rotate);
+         -o-transform: rotate($this_rotate);
+            transform: rotate($this_rotate);
+}
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {@content; @include transitions(0.5s);}
+    &:-moz-placeholder {@content; @include transitions(0.5s);}
+    &::-moz-placeholder { @content; @include transitions(0.5s);}
+    &:-ms-input-placeholder {@content; @include transitions(0.5s);}
+}
+
+@mixin cover{
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+@mixin gray{
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
+@mixin pseudo($display: block, $pos: absolute, $content: ''){
+    content: $content;
+    display: $display;
+    position: $pos;
+}
+
+@mixin center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

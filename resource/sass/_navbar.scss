@@ -1,0 +1,62 @@
+.navbar-default{
+  //background-color: $color1;
+  background: linear-gradient(to bottom, rgba(72, 96, 144, 1) 0%, rgba(45, 81, 132, 1) 100%);
+  border: none;
+  .navbar-nav{
+    > li {
+      text-transform: uppercase;
+      //width: 220px;
+      &.active a{
+        background-color: $color3 !important;
+        color: $color1;
+      }
+      a{
+        color: #FFF;
+        transition: color 1s;
+        &:hover, &:active, &:focus{
+          color: $color3;
+        }
+      }
+    }
+    .open > a{
+      background-color: $color3 !important;
+      color: $color1;
+
+    }
+  }
+  a{
+    color: #FFF;
+  }
+}
+
+.navbar{
+  margin-bottom: 0px;
+  border-top: 3px solid #2d5184;
+}
+
+.dropdown-menu{
+  padding: 0px;
+  > li{
+    background-color: lighten($color3, 30%);
+    > a{
+      color: $color1 !important;
+      &:hover, &:active, &:focus{
+        background-color: $color3 !important;
+      }
+    }
+  }
+}
+
+.navbar > .container {
+  text-align: center;
+}
+.navbar-header, .navbar-brand, .navbar .navbar-nav, .navbar .navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+.collapse.navbar-collapse {
+  width: auto;
+  clear: none;
+}
+
+//.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus
